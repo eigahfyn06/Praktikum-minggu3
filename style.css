@@ -70,7 +70,8 @@ color:#a855f7;
 list-style:none;
 display:flex;
 gap:40px;
-margin:auto;
+margin-left:auto;
+margin-right:30px;
 }
 
 .nav-menu a{
@@ -80,6 +81,25 @@ color:white;
 
 .nav-menu a:hover{
 color:#a855f7;
+}
+
+
+
+/* HIRE ME NAVBAR */
+
+.hire-navbar{
+background:linear-gradient(45deg,#9333ea,#a855f7);
+padding:10px 22px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.hire-navbar:hover{
+transform:translateY(-2px);
+box-shadow:0 8px 20px rgba(168,85,247,0.5);
 }
 
 
